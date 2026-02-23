@@ -1,0 +1,96 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+    font-family: 'Gill Sans';
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+#main {
+    height: 100%;
+    width: 100%;
+}
+   #header {
+    height: 10vh;
+    width: 100%;
+   position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(249, 255, 225);
+    position: fixed;
+   }
+   .nav-link{
+       text-decoration: none;
+   }
+   #logo{
+       height: 70%;
+       
+   }
+   #logo img{
+       height: 100%;
+       width: 100%;
+       object-fit: cover;
+   }
+   .text{
+       color:rgb(0, 0, 70);
+       font-weight: bold;
+      
+   }
+   .text:hover{
+       color: rgb(0, 0, 230);
+   }
+   #contactdetails{
+       
+       font-weight:bold;
+   }
+   #contact:hover{
+       color: blue;
+   }
+   .icon{
+      
+      padding: 10px;
+      border-radius: 50%;
+    
+   }
+   .icon:hover{
+    background-color: lightblue;
+
+   }
+   #login{
+       display: flex;
+       padding: 10px;
+      border-radius: 50%;
+ }
+ #login:hover{
+    background-color: lightblue;}
+
+   #try{
+       background-color: rgb(16, 143, 33);
+       padding: 10px 20px;
+       color: white;
+    
+   }
+   #try:hover{
+       background-color: darkgreen;
+   }
+   #fakeHeader{ 
+    height: 10vh;
+    width: 100%;
+    background-color: yellow; 
+    
+   }
+   #page1 {
+       height: 90vh;
+       width: 100%;
+       background-color: rgb(222, 230, 245);
+   }
+   #page2{
+    height: 90vh;
+    width: 100%;
+    background-color:darkcyan;
+
+   }
+   

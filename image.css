@@ -1,0 +1,61 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #df7272;
+    margin: 0;
+    
+}
+
+.gallery-title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.food-item {
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.food-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 15px rgba(0,0,0,0.2);
+}
+
+.food-item img {
+    width: 100%;
+    height: 250px;
+    object-fit:cover;
+}
+
+.food-info {
+    padding: 15px;
+    text-align: center;
+}
+
+.food-info h3 {
+    margin: 0 0 10px;
+    color: #222;
+}
+
+.food-info p {
+    color: #666;
+    font-size: 0.9em;
+    margin: 0 0 15px;
+}
+
+.price {
+    font-weight: bold;
+    color: #e67e22;
+    font-size: 1.2em;
+}
